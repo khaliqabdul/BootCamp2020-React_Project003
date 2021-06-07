@@ -1,5 +1,36 @@
 .App {
   text-align: center;
+  
+}
+.blue{
+  background-color: blue;
+  color: azure;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  
+}
+.blue h1{
+  padding-top: 20px;
+  margin-left: 500px;
+}
+.white{
+  background-color: black;
+  color: green;
+  height: 100px;
+  border-bottom: 2px solid salmon;
+  display: flex;
+  flex-direction: row;
+}
+.white h1{
+  padding-top: 20px;
+  margin-left: 500px;
+}
+.btnChangeTheme{
+  width: 75px;
+  height: 45px;
+  margin-left: 400px;
+  margin-top: 20px;
 }
 
 .App-logo {

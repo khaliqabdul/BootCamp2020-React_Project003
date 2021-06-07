@@ -1,8 +1,8 @@
 import React, { useReducer } from 'react';
-import numberReducer from './numberReducer';
+import Reducer from './Reducer';
 
 function Child2(){
-    const [state, dispatch] = useReducer(numberReducer, 52)
+    const [state, dispatch] = useReducer(Reducer, 52)
     return(
         <div>
             <h3>Child 2 number: {state}</h3>
