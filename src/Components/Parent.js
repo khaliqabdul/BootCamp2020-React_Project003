@@ -7,9 +7,8 @@ import TransactionList from './TransactionList';
 import AddTransaction from './AddTransaction';
 import GlobalProvider from './ValueContext';
 
-
 function Parent() {
-  return (
+  return (         
       <GlobalProvider>
           <Header />
           <Balance />

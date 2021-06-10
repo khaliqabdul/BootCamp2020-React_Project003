@@ -4,8 +4,8 @@ function IncomeExpense() {
     const { state } = useContext(ValueContext)
 
     const amount = state.map(state => state.Amount);
-    const expense = amount.filter(amount => amount <= 0).reduce((total, num)=> (total += num),0)*-1;
-    const income = amount.filter(amount => amount >= 0).reduce((total, num)=> (total += num),0);
+    const expense = amount.filter(amount => amount <= 0).reduce((total, num)=> (total += num),0).toFixed(2);
+    const income = amount.filter(amount => amount >= 0).reduce((total, num)=> (total += num),0).toFixed(2);
         
     return (
         <div className="inc-exp-container">

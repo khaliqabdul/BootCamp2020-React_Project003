@@ -7,12 +7,10 @@ import React, { useState } from 'react';
 //import ValueContext from './ValueContext';
 import themeContext, { plusAmount } from './Context/themeContext';
 
-
 function App() {
   const themeMode = useState("light");
   const [input, setInput] = useState(0);
   const [add, setAdd] = useState(0);
-  console.warn(add);
   return (
     <div className="App">
       <themeContext.Provider value={themeMode}>
